@@ -1,0 +1,145 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+}
+
+.body {
+    margin: auto;
+    margin-top: 5%;
+    width: 65%;
+    height: 70vh;
+    border-radius: 5px;
+    box-shadow: 0px 0px 50px #E5E5E5;
+}
+
+.body .title {
+    margin: auto;
+    padding-top: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 90%;
+    height: 10%;
+    text-align: center;
+    font-weight: 700;
+    font-size: 2.3rem;
+}
+
+.body .buttons {
+    margin: auto;
+    margin-top: 15px;
+    text-align: center;
+    width: 90%;
+    height: 10%;
+    font-size: 20px;
+}
+
+.body .buttons button {
+    width: fit-content;
+    height: fit-content;
+    padding: 10px 15px;
+    background-color: #e4e4e4;
+    color: black;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.body .buttons button:hover {
+    background-color: #c7c7c7;
+}
+
+.body .list {
+    margin: auto;
+    margin-top: 15px;
+    width: 90%;
+    height: 70%;
+    font-size: 20px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.body .item {
+    background: #F3F3F3;
+    margin: auto;
+    width: 80%;
+    height: 5vh;
+    padding: 0px 15px;
+    font-size: 20px;
+    display: flex;
+}
+
+.body .item .name {
+    width: 85%;
+    height: 100%;
+    font-size: 20px;
+    line-height: 5vh;
+}
+
+.body .item .edit {
+    width: 5%;
+    height: 100%;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+.body .item .edit button {
+    width: 100%;
+    height: 90%;
+    background-color: #4BC6FF;
+    color: black;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: 25px;
+    border-radius: 5px;
+}
+
+.body .item .edit button:hover {
+    background-color: #24baff;
+}
+
+.body .item .delete {
+    width: 5%;
+    height: 100%;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+.body .item .delete button {
+    width: 100%;
+    height: 90%;
+    background-color: #FF5A5A;
+    color: black;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: 25px;
+    border-radius: 5px;
+}
+
+.body .item .delete button:hover {
+    background-color: #FF2929;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #8a8a8a;
+    border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(128, 128, 128);
+}
